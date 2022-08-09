@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Sorting Visualizer
+        </title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            
+            <div id="heading">
+                  <h1>Sorting Visualizer</h1>
+            </div>
+            <header>
+
+            
+            <div id="initialise-array">
+               <div id="generate-new-arr">
+                <button>New Array</button>
+               </div>
+               <p>Array Size</p>
+               <input id="arr-size" type="range" min=10 max=110 step=10 value=30>
+               
+               
+            </div>
+          
+        
+
+        <div id="algorithms">
+            <button id="insertion">insertionSort</button>
+            <button id="merge">mergeSort</button>
+            <button id="bubble">bubbleSort</button>
+            <button id="selection">selectionSort</button>
+            <button id="quick">quickSort</button>
+            
+        </div>
+        </header>
+        </div>
+
+        <div id="arr-container">
+           
+        </div>
+
+
+        <script src="./algoScripts/index.js"></script>
+        <script src="./algoScripts/bubbleSort.js"></script>
+        <script src="./algoScripts/insertionSort.js"></script>
+        <script src="./algoScripts/mergeSort.js"></script>
+        <script src="./algoScripts/selectionSort.js"></script>
+        <script src="./algoScripts/quickSort.js"></script>
+    </body>
+</html>
